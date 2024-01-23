@@ -1,0 +1,17 @@
+vcf=Sample.pass.vcf
+samplelist=sample.txt
+
+##1. Sample sort and filter
+vcf_sort_filter.py ${vcf} ${vcf%%.*}_sort.vcf -f ${samplelist} -a 
+
+##2.
+vcf2genotype.py -i ${vcf%%.*}_sort.vcf -o ${vcf%%.*}_sort.geno
+
+##3.
+hgmap_treat.py ${vcf%%.*}_sort.geno -o ${vcf%%.*}_sort
+
+##4.
+hgmap_merge.py ${vcf%%.*}_sort.raw -o ${vcf%%.*}_sort
+
+##5.
+hgmap_chiqtest.py ${vcf%%.*}_sort_subBin.wraw -o ${vcf%%.*}_sort_subBin 
