@@ -32,11 +32,9 @@ rule donwload:
         CHILDREN_LIST="kong",
         PARENTS_INDEX="parent",
         SPECIESINDEX="species/"
-    #conda:
-    #    "./FishSNP_env.yaml"
-    shell:
-        #"./SNP_calling_pipeline/NCBIdataProcessingGroup.sh {params.project} \
-        #{input} tilapia {input} parent kong children parent WGS kong EBI kong> {log} 2>&1"
+    conda:
+        "../FishSNP_01.yaml"
+    shell:        
         "./NCBIdataProcessingGroup.sh {params.project} \
         {input} {params.species} {input} {params.PARENTS_INDEX} {params.CHILDREN_LIST} \
         {params.CHILDREN_INDEX} {params.CONTROL_FLOW} {params.DATA_TYPE} {params.PREPATH} \
