@@ -22,7 +22,7 @@ rule donwload:
     params:
         project="{example_project}",
         pvalue="0.05"
-    #conda:
-    #    "./FishSNP_env.yaml"
+    conda:
+        "../FishSNP_01.yaml"
     shell:
         "bash mendelian_test.sh {input[0]} {input[1]} {params.project} {params.pvalue} >{output} 2>&1"
