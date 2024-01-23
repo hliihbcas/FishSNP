@@ -2,8 +2,8 @@
 The code repository of the FishSNP databaseconstruct reference network.  
 The script process, including the test data, can also be downloaded at the following address ().  
 
-# SNP_calling_pipeline
-The process includes downloading, quality control, SNP Calling, etc.  
+# SNP calling pipeline
+The process includes downloading, quality control, SNP calling, etc.  
 
 Before you start the process, here are a few things you need to do  
 1.Install conda, GATK 4.0, libcrypto.so.1.0.0, libbz2.so.1.0 in advance.  
@@ -14,7 +14,7 @@ Getting started (Linux)
 $ cd ./SNP_calling_pipeline  
 $ snakemake -s SNP_calling_pipeline_snakemake.py --cores 2
 
-# Mendelian_test
+# Mendelian test
 The process includes the Mendelian test.  
 
 Before you start the process, here are a few things you need to do  
@@ -24,7 +24,7 @@ Getting started (Linux)
 $ cd Mendelian_test  
 $ snakemake -s mendelian_test_snakemake.py --cores 1
 
-# Hardy_Weinberg_test
+# Hardy Weinberg test
 The process includes the Hardy Weinberg test.
 Getting started (Linux)  
 $ cd Hardy_Weinberg_test  
