@@ -1,6 +1,6 @@
 ##########################################################
 # 2024/1/9
-# Heng Li & Lei Zhang
+# Heng Li
 # m17715629787@163.com
 # SNP calling pipeline with snakemake
 # snakemake -s SNP_calling_pipeline_snakemake.py --cores 1
