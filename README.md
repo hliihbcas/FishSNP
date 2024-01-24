@@ -1,6 +1,7 @@
 # FishSNP
 The code repository of the FishSNP database.  
 The script process, including the test data, can also be downloaded at the following address ().  
+The script should be run in the Linux environment, and make sure that the conda in the environment can be used normally.  
 
 ## Import the conda environment
 1.Before the process begins, you need to import the conda environment and run the following example in the active conda environment  
