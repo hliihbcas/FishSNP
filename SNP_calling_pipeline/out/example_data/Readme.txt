@@ -1,0 +1,1 @@
+Record the folder where the output file is located during the script run
