@@ -20,7 +20,7 @@ rule donwload:
         "{example_project}/out.txt"
     params:
         project="{example_project}"
-    conda:
-        "../FishSNP_01.yaml"
+    #conda:
+    #    "../FishSNP_01.yaml"
     shell:
         "bash plink_pipline.sh {params.project} >{output} 2>&1"
