@@ -32,8 +32,8 @@ rule donwload:
         CHILDREN_LIST="kong",
         PARENTS_INDEX="parent",
         SPECIESINDEX="species/"
-    conda:
-        "../FishSNP_01.yaml"
+    #conda:
+    #    "../FishSNP_01.yaml"
     shell:        
         "./NCBIdataProcessingGroup.sh {params.project} \
         {input} {params.species} {input} {params.PARENTS_INDEX} {params.CHILDREN_LIST} \
