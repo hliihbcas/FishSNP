@@ -1,6 +1,6 @@
 ############################################
 # 2024/1/9
-# Zhang Lei & Heng Li
+# Lei Zhang & Heng Li
 # 2211696720@qq.com/m17715629787@163.com
 # Mendelian_test
 # snakemake -s mendelian_test_snakemake.py --cores 1
