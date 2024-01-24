@@ -1,6 +1,6 @@
 ###################################
 # 2024/1/9
-# Zhang Lei & Heng Li
+# Lei Zhang & Heng Li
 # 2211696720@qq.com/m17715629787@163.com
 # Hardy_Weinberg_test
 # snakemake -s hardy_pipeline_snakemake.py --cores 1
