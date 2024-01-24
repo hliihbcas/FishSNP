@@ -31,7 +31,7 @@ mkdir `pwd`/temp/$PROJECT/tmp_${SAMPLE}
 TEMP=`pwd`/temp/$PROJECT/tmp_${SAMPLE}
 
 
-source activate py2   ### py3 to py2
+#source activate py2   ### py3 to py2
 
 ######################################################################################################################################################
 ####################  Data pre-processing for variant discovery
