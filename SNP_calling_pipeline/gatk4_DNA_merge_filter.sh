@@ -33,7 +33,7 @@ grep "^#" ${MUL}/${PARENTS_CHILDREN}_snp.filter.vcf > ${MUL}/vcf.head
 grep -v "^#" ${MUL}/${PARENTS_CHILDREN}_snp.filter.vcf |awk '{if($7~/PASS/)print}' > ${MUL}/${PARENTS_CHILDREN}_snp.pass.vcf.
 cat ${MUL}/vcf.head ${MUL}/${PARENTS_CHILDREN}_snp.pass.vcf. > ${MUL}/${PARENTS_CHILDREN}_snp.pass.vcf
 rm ${MUL}/vcf.head ${MUL}/${PARENTS_CHILDREN}_snp.pass.vcf.
-
+exit 0
 ##VariantEval
 #${GATK} -R ${GENOME} -T VariantEval --eval ${SAMPLE}_06.snp.filter.vcf
 
