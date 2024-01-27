@@ -7,7 +7,7 @@ The script should be run in the Linux environment, and make sure that the conda 
 1.Before the process begins, you need to import the conda environment and run the following example in the active conda environment  
 $ cd FishSNP-main  
 $ conda env create -f FishSNP_01.yaml  
-$ source activate FishSNP_02  
+$ source activate FishSNP_01  
 
 ## SNP calling pipeline
 The process includes downloading, quality control, SNP calling, etc.  
