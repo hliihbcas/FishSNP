@@ -211,7 +211,7 @@ if __name__ == '__main__':
 	usage="\n  %prog [options] [arg1 arg2 ...] inputfile"
 	parser=OptionParser(usage,version="%prog [V1.0.1]")
 	#parser.add_option("-v","--version", action="store_true", dest="verbose",help="Print version information")
-	parser.add_option("-s","--score",dest="sc",type="float",default=0.8,help="The genotyping rate of offsprings,0-1,float,default=0.5")
+	parser.add_option("-s","--score",dest="sc",type="float",default=0.5,help="The genotyping rate of offsprings,0-1,float,default=0.5")
 	parser.add_option("-e","--errper",dest="ep",type="float",default=0.05,help="The proportion of false genotyped progenies in successful genotyped offsprings,0-1,float,default=0.05")
 	parser.add_option("-n","--nochange", action="store_false", dest="nc",default=True,help="Not change D2.14 into D2.15 and D1.9 into D1.10")
 	parser.add_option("-o","--out", dest="out", default='out',help="The prefix of the output files. The default is \"out\"")
