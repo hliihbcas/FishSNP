@@ -16,7 +16,7 @@ The process includes downloading, quality control, SNP calling, etc.
 1.Install GATK 4.0 in advance.  
 2.Install libcrypto.so.1.0.0, libbz2.so.1.0 in {Your lib path}/FishSNP_01/lib/  
 3.Change the "GATK_PATH" variable in the script (./SNP_calling_pipeline/SNP_calling_pipeline_snakemake.py) to the absolute path of the GATK in your environment.  
-4.Download the corresponding genome index file (tilapia) from the SNP_calling_source.tar.gz at the bottom of the download page for the FishSNP database （http://bioinfo.ihb.ac.cn/fishsnp/download）, and extract it in the ./SNP_calling_pipeline/species/tilapia/.  
+4.Download the corresponding genome index file (tilapia) from the SNP_calling_source.tar.gz at the bottom of the download page for the FishSNP database (http://bioinfo.ihb.ac.cn/fishsnp/download), and extract it in the ./SNP_calling_pipeline/species/tilapia/.  
 
 **Getting started (Linux)**  
 $ cd ./SNP_calling_pipeline  
