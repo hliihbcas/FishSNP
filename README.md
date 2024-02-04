@@ -1,6 +1,6 @@
 # FishSNP
 The code repository of the FishSNP database.  
-The script process, including the test data, can also be downloaded at the following address (http://bioinfo.ihb.ac.cn/dj_static/GBTP/snp/script/Pipelines_for_FishSNP_1.1.tar.gz).  
+The script process can also be downloaded at the following address (http://bioinfo.ihb.ac.cn/dj_static/GBTP/snp/script/Pipelines_for_FishSNP_1.1.tar.gz).  
 The script should be run in the Linux environment, and make sure that the conda in the environment can be used normally.  
 
 ## Import the conda environment
